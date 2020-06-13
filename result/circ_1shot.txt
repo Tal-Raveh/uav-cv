@@ -1,0 +1,28 @@
+Select data input:
+     	[1] single picture.
+     	[2] Mullti frame video.
+     	[else] Stop and leave me alone.
+ Your answer: 2
+
+What would you like to watch? Choose your decision:
+     	[1] Clean frame of the Pilot view.
+     	[2] Matching results include the Pilot view and the Satellite map.
+     	[else] None.
+ Your answer: 2
+Simulation has started, press 'p' any time to pause.
+
+Running time: 0.02/90.94    [0.02%]     (Real time elapsed: 0.0625)
+Running time: 90.94/90.94    [100.00%]  (Real time elapsed: 3729.0906)
+Video seconds per frame (1/fps): 0.0167 [sec]
+Running time for a single frame: 0.6841 [sec]
+
+You chose to save the results. Choose your decision:
+         	[1] Save both result image and location data.
+         	[2] Save result image only.
+         	[3] Save location data only.
+         	[else] Save none.
+ Your answer: 1
+
+Please insert destination file name (result image): circ_1shot
+
+Please insert destination file name (location data): circ_1shot

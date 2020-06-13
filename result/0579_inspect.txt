@@ -1,0 +1,23 @@
+Select data input:
+     	[1] single picture.
+     	[2] Mullti frame video.
+     	[else] Stop and leave me alone.
+ Your answer: 1
+Running time for a single picture: 0.9751 [sec]
+
+You chose to save the results. Choose your decision:
+         	[1] Save both result image and location data.
+         	[2] Save result image only.
+         	[3] Save location data only.
+         	[else] Save none.
+ Your answer: 2
+
+Please insert destination file name (result image): 0579_inspect
+rc0 = { 34.836061504737784844110137782990932464599609375
+        31.277155070116549495651270262897014617919921875
+        327.4642303416621871292591094970703125 }
+
+AFTER FLIP:
+rc0 = { 34.8416005900480740820057690143585205078125
+        31.2763640813253687156247906386852264404296875
+        320.71414136909879744052886962890625 }
