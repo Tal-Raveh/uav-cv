@@ -4,7 +4,7 @@ The following repository include files relating to a project done within M.Sc st
 
 Tal Raveh
 
-## Project Main Goal
+## Main Goal
 The main goal of the project is to enable an UAV to identify its location with the camera mounted on it. To do so, a system has been developed; this system capable of localizing the aircraft by processing the image obtained from the camera. The system compares the image with a given orthophoto map and estimates the shape of the frame on the map. Then, we propose a geometric relation between the frame shape and the camera geolocation.
 
 ## Location Out of Frame Shape
