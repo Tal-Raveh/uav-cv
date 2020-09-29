@@ -20,11 +20,11 @@ The method presented here was generated to find a relation between an observatio
 
 First, the system compares the camera frame image with the orthophoto map and match enough correspondences to get the fundamental matrix linking the two images. Then, by projecting the four corners of the frame to the map image, we can estimate the shape of the frame on the map. The following figure shows an example of projecting the frame shape with the use of the fundamental matrix.
 
-![projectingframe](projected_frame.png "Demonstration of projecting an angled viewpoint image onto a map image")
+![projectingframe](figures/projected_frame.png "Demonstration of projecting an angled viewpoint image onto a map image")
 
 Considering the related work on the P3P problem and more pose estimation suggestions in literature, we proposed a relation between the camera geolocation and the shape of the frame projected on the map image using as few parameters as possible. The following figure presents the problem including: the width wm of the projected frame passes its mid-point; the height z of the camera above the mid-point ground level (AGL); the distance vm between the camera and the center of the projected frame, its projection v’m on the horizontal plane which contains the center of the frame and the angle with the horizon θ.
 
-![projectdraw](projected_draw.png "The frame-shape problem; where C is the camera view point and M is the center of the frame projected on the ground level")
+![projectdraw](figures/projected_draw.png "The frame-shape problem; where C is the camera view point and M is the center of the frame projected on the ground level")
 
 ## Implementation of the Solution
 
