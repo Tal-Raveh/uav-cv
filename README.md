@@ -1,5 +1,13 @@
 # Localization of UAVs Using Image Processing
 
+The use of unmanned aerial vehicles (UAVs) has become widely utilized for photography, surveillance, mapping and research. These aircrafts control relies on monitoring their location by constantly combining accelerometers (INS) with satellite communication (GPS). The latter is usually referring to as localization, whereas a UAV navigation system that relies on GPS is vulnerable to signal failure or initiated interruptions. In this thesis we propose a new approach to use the camera installed on the device for localization purposes, such that it could be used as an alternative when the satellite navigation system malfunctions, and/or be easily incorporated into a sensor fusion framework.
+
+We present a vision-based localization method that finds the location of a camera by first comparing the observed image to an orthophoto map and then, using simple geometric approach to localize the camera. The method includes projecting the outer shape of the observed frame onto the map image plane using the fundamental matrix. Then, the camera geolocation is obtained from a simple geometric relation with the frame shape.
+
+This thesis includes a background overview in image processing, and a mathematical analysis of the problem that the project intends to solve. Furthermore, the proposed solution is presented followed by a preliminary simulation comparing our first results to other well-known methods. Then, a description of the algorithm that was used to implement our method is presented, including flowcharts and explanation on its various phases.
+
+Finally, experiments were performed with a real drone to check the accuracy of the method in various terrains and flight modes affecting the camera viewpoint. After presenting the improvements made to the algorithm with experiment substantiations, we performed more tests to examine the effects of altitude, angle of view and more attributes of the capturing camera, on the accuracy of the proposed method. The results show that the method uncertainty in evaluating the drone location is less than 10 meters. Furthermore, our solution error remains within the same scale despite the change in altitude and camera pitch angle.
+
 The following repository include files relating to a project done within M.Sc studies in robotics engineering.
 
 Tal Raveh
@@ -27,3 +35,6 @@ The algorithm solution consists of three major phases; first, it corrects the di
 In case the currently captured frame is not the first image from the scene, after the first phase the algorithm match the observed POIs (Points of Interest) with the information stored in the scene database. If any POI reappeared, a learning process is initiated through which the system could optimize the POIs it uses for further calculations. The following figure shows the learning process which uses additional telemetry data from the drone functioning sensors.
 
 ![LearningProcess](UAV_CV.cut-Page-2.png "Learning process which integrates into the overall program described by a flowchart")
+
+## Experiments results
+
