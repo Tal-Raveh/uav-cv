@@ -10,7 +10,7 @@ Finally, experiments were performed with a real drone to check the accuracy of t
 
 The following repository include files relating to a project done within M.Sc studies in robotics engineering.
 
-Tal Raveh
+**Tal Raveh**
 
 ## Main Goal
 The main goal of the project is to enable an UAV to identify its location with the camera mounted on it. To do so, a system has been developed; this system capable of localizing the aircraft by processing the image obtained from the camera. The system compares the image with a given orthophoto map and estimates the shape of the frame on the map. Then, we propose a geometric relation between the frame shape and the camera geolocation.
@@ -36,5 +36,5 @@ In case the currently captured frame is not the first image from the scene, afte
 
 ![LearningProcess](UAV_CV.cut-Page-2.png "Learning process which integrates into the overall program described by a flowchart")
 
-## Experiments results
+## Experiment results
 
