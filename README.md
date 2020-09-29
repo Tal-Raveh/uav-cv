@@ -30,11 +30,11 @@ Considering the related work on the P3P problem and more pose estimation suggest
 
 The algorithm solution consists of three major phases; first, it corrects the distorted frame and detects keypoints using ORB detector. Second, it matches the observed features with the ones detected on the map and calculates the fundamental matrix linking the frame and the map images. Finally, it estimates the camera location using the frame-shape method presented earlier. The flowchart presented in the next figure describes the sequence of actions involved in the implementation of the solution.
 
-![flowchart](UAV_CV.cut-Page-1.png "Flowchart depicting the process of estimating the camera’s location from the image obtained from it")
+![flowchart](figures/UAV_CV.cut-Page-1.png "Flowchart depicting the process of estimating the camera’s location from the image obtained from it")
 
 In case the currently captured frame is not the first image from the scene, after the first phase the algorithm match the observed POIs (Points of Interest) with the information stored in the scene database. If any POI reappeared, a learning process is initiated through which the system could optimize the POIs it uses for further calculations. The following figure shows the learning process which uses additional telemetry data from the drone functioning sensors.
 
-![LearningProcess](UAV_CV.cut-Page-2.png "Learning process which integrates into the overall program described by a flowchart")
+![LearningProcess](figures/UAV_CV.cut-Page-2.png "Learning process which integrates into the overall program described by a flowchart")
 
 ## Experiment results
 
