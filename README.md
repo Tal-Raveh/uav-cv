@@ -38,3 +38,5 @@ In case the currently captured frame is not the first image from the scene, afte
 
 ## Experiment results
 
+![mapresults](figures/map_JG.gif "GREEN = GPS logs | BLUE = estimated location")
+![matchresults](figures/match_JG.gif "GREEN = projected frame | PINK = GPS logs | BLUE = estimated location")
